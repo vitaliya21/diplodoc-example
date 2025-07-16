@@ -1,7 +1,13 @@
-title: Cloud.fkk
+title: Документация
 links:
   - title: Начало работы
     href: Registration.md
+    background:
+      image:
+        mobile: 'https://storage.yandexcloud.net/diplodoc-www-assets/pages/index-diplodoc/ddos-index-cover-mini.png'
+        desktop: 'docs/images/login-full.1751639111.png'
+      color: '#C6FE4D'
+      fullWidth: false
   - title: Управление доступом
     href: prosmotr-users.md
   - title: Управление проектами
