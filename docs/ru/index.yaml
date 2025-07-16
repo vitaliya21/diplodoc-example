@@ -8,7 +8,7 @@ blocks:
     verticalOffset: '1'
     background:
       image:
-        mobile: 'https://storage.yandexcloud.net/diplodoc-www-assets/pages/index-diplodoc/ddos-index-cover-mini.png'
+        mobile: '/diplodoc-example/images/reg.png'
         desktop: '/diplodoc-example/images/reg.png'
       color: '#C6FE4D'
       fullWidth: false
