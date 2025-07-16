@@ -7,7 +7,7 @@ blocks:
     resetPaddings: true
     verticalOffset: '1'
     background:
-      image: '/diplodoc-example/docs/ru/images/reg.png'
+      image: '/_assets/reg.png'
       fullWidth: false
     buttons:
       - text: 'Начать'
