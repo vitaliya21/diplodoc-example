@@ -8,8 +8,8 @@ blocks:
     verticalOffset: '1'
     background:
       image:
-        mobile: '/docs/ru/images/reg.png'
-        desktop: '/docs/ru/images/reg.png'
+        mobile: '/diplodoc-example/docs/ru/images/reg.png'
+        desktop: '/diplodoc-example/docs/ru/images/reg.png'
       
       fullWidth: false
     buttons:
