@@ -1,4 +1,5 @@
 title: Документация
+::: page-constructor
 blocks:
   - type: 'header-block'
     width: 's'
@@ -14,7 +15,7 @@ blocks:
         theme: 'dark'
         size: 'promo'
         url: '/diplodoc-example/ru/Registration.html'
-      
+:::
 links:
   - title: Начало работы
     href: Registration.md
