@@ -1,13 +1,11 @@
 title: Cloud.fkk
 href: index.yaml
 items: 
-  - name: О 
+  - name: Начало работы
     href: about.md
-  - name: Дополнительная страница
+  - name: Управление доступом
     href: page.md
-  - name: Другая страница
+  - name: Управление проектами
     href: anotherpage.md
-  - name: Подраздел
-    include:
-      path: sub-section/toc.yaml
-      mode: link
+  - name: Управление биллингом
+    href: sub-section/content.md
