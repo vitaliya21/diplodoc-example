@@ -1,13 +1,13 @@
 title: Cloud.fkk
 links:
   - title: Начало работы
-    href: about.md
+    href: Registration.md
   - title: Управление доступом
-    href: about.md
+    href: prosmotr-users.md
   - title: Управление проектами
-    href: about.md
+    href: projects.md
   - title: Управление биллингом
-    href: about.md
+    href: add-card.md
   - title: Управление сервисами IaaS
-    href: about.md
+    href: vm.md
   
