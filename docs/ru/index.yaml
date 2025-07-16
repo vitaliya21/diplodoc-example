@@ -16,7 +16,7 @@ blocks:
       - text: 'Начать'
         theme: 'dark'
         size: 'promo'
-        url: 'docs/ru/Registration.md'
+        url: 'docs/ru/Registration.html'
       
 links:
   - title: Начало работы
