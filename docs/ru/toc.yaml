@@ -2,14 +2,67 @@ title: Cloud.fkk
 href: index.yaml
 items: 
   - name: Начало работы
-    href: about.md
+    items:
+      - name: Регистрация
+        href: about.md
+      - name: Привязка банковской карты
+        href: about.md
+
   - name: Управление доступом
-    href: page.md
+    items:
+      - name: Управление пользователями
+        items:
+          - name: Просмотр пользователей кабинета
+            href: about.md
+          - name: Добавление пользователя
+            href: about.md
+          - name: Редактирование роли пользователя
+            href: about.md
+          - name: Удаление пользователя
+            href: about.md
+
   - name: Управление проектами
-    href: anotherpage.md
+    items:
+      - name: Просмотр списка доступных проектов
+        href: about.md
+      - name: Создание нового проекта
+        href: about.md
+
   - name: Управление биллингом
     items:
       - name: Операции с банковской картой
+        items:
+          - name: Привязать карту
+            href: about.md
+          - name: Отвязать карту
+            href: about.md
+      
+      - name: Управление балансом
+        items:
+          - name: Просмотр баланса
+            href: about.md
+          - name: Пополнение баланса
+            href: about.md
+          - name: Перевод средств на баланс проекта
+            href: about.md
+          - name: Формирование счета на оплату
+            href: about.md
+
+      - name: Детализация расходов
+        items:
+          - name: Просмотр списаний и поступлений
+            href: about.md
+          
+      - name: Тарификация
+        href: about.md
+    
+  - name: Управление сервисами IaaS
+    items:
+      - name: Виртуальные машины
+        href: about.md
+      - name: Виртуальные диски
+        href: about.md
+      - name: Виртуальные сети
         href: about.md
       
 
