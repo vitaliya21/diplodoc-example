@@ -16,7 +16,7 @@ blocks:
       - text: 'Начать'
         theme: 'dark'
         size: 'promo'
-        url: 'diplodoc-example/ru/Registration.html'
+        url: '/diplodoc-example/ru/Registration.html'
       
 links:
   - title: Начало работы
