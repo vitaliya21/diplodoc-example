@@ -10,6 +10,6 @@ items:
   - name: Управление биллингом
     items:
       - name: Операции с банковской картой
-        href: sub-section/content.md
+        href: about.md
       
 
