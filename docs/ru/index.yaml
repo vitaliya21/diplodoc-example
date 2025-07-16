@@ -1,10 +1,10 @@
-title: Шаблон документации
+title: Cloud.fkk
 links:
-  - title: О проекте
+  - title: Начало работы
     href: about.md
-  - title: Страница Diplodoc на главной странице
+  - title: Управление доступом
     href: page.md
-  - title: Структура YFM на главной странице
+  - title: Управление проектами
     href: anotherpage.md
-  - title: Подраздел на главной странице
+  - title: Управление биллингом
     href: sub-section/
