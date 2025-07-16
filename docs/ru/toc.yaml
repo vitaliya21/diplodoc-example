@@ -4,65 +4,65 @@ items:
   - name: Начало работы
     items:
       - name: Регистрация
-        href: about.md
+        href: Registration.md
       - name: Привязка банковской карты
-        href: about.md
+        href: privyazka-bankovscoy-katry.md
 
   - name: Управление доступом
     items:
       - name: Управление пользователями
         items:
           - name: Просмотр пользователей кабинета
-            href: about.md
+            href: prosmotr-users.md
           - name: Добавление пользователя
-            href: about.md
+            href: add-users.md
           - name: Редактирование роли пользователя
-            href: about.md
+            href: update-role.md
           - name: Удаление пользователя
-            href: about.md
+            href: delete-user.md
 
   - name: Управление проектами
     items:
       - name: Просмотр списка доступных проектов
-        href: about.md
+        href: projects.md
       - name: Создание нового проекта
-        href: about.md
+        href: create-project.md
 
   - name: Управление биллингом
     items:
       - name: Операции с банковской картой
         items:
           - name: Привязать карту
-            href: about.md
+            href: add-card.md
           - name: Отвязать карту
-            href: about.md
+            href: delete-card.md
       
       - name: Управление балансом
         items:
           - name: Просмотр баланса
-            href: about.md
+            href: balance.md
           - name: Пополнение баланса
-            href: about.md
+            href: add-balance.md
           - name: Перевод средств на баланс проекта
-            href: about.md
+            href: perevod.md
           - name: Формирование счета на оплату
-            href: about.md
+            href: form-schet.md
 
       - name: Детализация расходов
         items:
           - name: Просмотр списаний и поступлений
-            href: about.md
+            href: balance-history.md
           
       - name: Тарификация
-        href: about.md
+        href: tarifikacia.md
     
   - name: Управление сервисами IaaS
     items:
       - name: Виртуальные машины
-        href: about.md
+        href: vm.md
       - name: Виртуальные диски
-        href: about.md
+        href: vv.md
       - name: Виртуальные сети
-        href: about.md
+        href: vn.md
       
 
