@@ -7,7 +7,7 @@ blocks:
     resetPaddings: true
     verticalOffset: '1'
     background:
-      image: '/build/reg.png'
+      image: '/_bundle/reg.png'
       fullWidth: false
     buttons:
       - text: 'Начать'
