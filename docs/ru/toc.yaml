@@ -1,4 +1,11 @@
 title: Cloud.fkk
+logo: 
+  <html>
+  <body>
+  <!--StartFragment--><img src="https://cloud.fkk.ru/asset/image/logo.png"/><!--EndFragment-->
+  </body>
+  </html>
+
 href: index.yaml
 items: 
   - name: Начало работы
