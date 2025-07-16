@@ -8,4 +8,7 @@ items:
   - name: Управление проектами
     href: anotherpage.md
   - name: Управление биллингом
-    href: sub-section/content.md
+    items:
+      - name: Операции с банковской картой
+        href: sub-section/content.md
+      
