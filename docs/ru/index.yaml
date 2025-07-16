@@ -9,7 +9,7 @@ blocks:
     background:
       image:
         mobile: 'https://storage.yandexcloud.net/diplodoc-www-assets/pages/index-diplodoc/ddos-index-cover-mini.png'
-        desktop: '/diplodoc-example/images/login-full.1751639111.jpeg'
+        desktop: '/diplodoc-example/images/reg.png'
       color: '#C6FE4D'
       fullWidth: false
     buttons:
