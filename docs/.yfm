@@ -2,3 +2,12 @@ langs: ['ru', 'en']
 
 docs-viewer:
   langs: ['en','ru']
+
+title: 'Документация для клиента'
+
+logo: 
+  <html>
+  <body>
+  <!--StartFragment--><img src="https://cloud.fkk.ru/asset/image/logo.png"/><!--EndFragment-->
+  </body>
+  </html>
