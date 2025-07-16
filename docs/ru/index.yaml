@@ -3,8 +3,11 @@ links:
   - title: Начало работы
     href: about.md
   - title: Управление доступом
-    href: page.md
+    href: about.md
   - title: Управление проектами
-    href: anotherpage.md
+    href: about.md
   - title: Управление биллингом
-    href: sub-section/
+    href: about.md
+  - title: Управление сервисами IaaS
+    href: about.md
+  
