@@ -8,8 +8,8 @@ blocks:
     verticalOffset: '1'
     background:
       image:
-        mobile: '_images/reg.png'
-        desktop: '_images/reg.png'
+        mobile: 'docs/ru/_images/reg.png'
+        desktop: 'docs/ru/_images/reg.png'
       
       fullWidth: false
     buttons:
