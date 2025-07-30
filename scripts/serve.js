@@ -23,7 +23,7 @@ class Server {
 
       watchPattern = 'docs/**/*',
 
-      port = 5000,
+      port = 3000,
 
       serveIndexes = ['index.html'],
       serveDir = 'docs-html',
@@ -181,3 +181,6 @@ function traverse(node, cb) {
 
 const server = new Server();
 server.listen();
+
+
+console.log()

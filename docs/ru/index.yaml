@@ -1,90 +1,21 @@
 blocks:
   - type: 'header-block'
-    title: 'Документация FKK Cloud'
+    width: 's'
     offset: 'default'
+    title: 'Документация FKK Cloud'
     resetPaddings: true
     verticalOffset: 'l'
     description: 'Облачный сервис, который позволит пользователям и организациям создавать собственные облачные среды с использованием принципов IaaS, PaaS и SaaS'
     background:
       light:
         image:
-          border-color: '#3036df'
-          theme: 'outlined'
           desktop: 'https://i.postimg.cc/h4fyh3H0/image.png'
           disableCompress: true
-        color: '#3036df'
-        fullWidth: false
-      dark:
-        image:          
-          desktop: 'https://i.postimg.cc/h4fyh3H0/image.png'
-          disableCompress: true
-        color: '#3036df'
-        fullWidth: false
+          fullWidth: false
+      
     buttons:
       - text: 'Начать'
         theme: 'outlined'
-        border-color: '#3036df'
         size: 'promo'
-        url: 'https://potential-cod-jj5gvv9rpvpj2pvg7-5000.app.github.dev/ru/Registration.html'
+        url: 'https://potential-cod-jj5gvv9rpvpj2pvg7-3000.app.github.dev/ru/Registration.html'
       
-  - type: 'extended-features-block'
-    title: Разделы 
-    items:
-      links:
-        - title: Начало работы
-          url: 'https://potential-cod-jj5gvv9rpvpj2pvg7-5000.app.github.dev/ru/Registration.html'
-          
-        - title: 'Управление доступом'
-          url: 'prosmotr-users.md'
-          
-        - title: 'Управление проектами'
-          url: 'projects.md'
-          
-        - title: 'Управление биллингом'
-          url: 'add-card.md'
-          
-        - title: 'Управление сервисами IaaS'
-          url: 'vm.md'
-          
-      
-
-  - type: 'card-layout-block'
-    title: 'Как это работает?'
-    colSizes:
-      all: 12
-      md: 4
-      sm: 6
-    children:
-      - type: 'layout-item'
-        content:
-          title: 'Архитектура'
-          text: 'Платформа Diplodoc имеет клиент-серверную архитектуру: серверная часть состоит из компонентов на Node.js, которые генерируют и отображают документационные проекты. Такая архитектура обеспечивает надёжность и горизонтальное масштабирование в случае необходимости.  '
-        media:
-          image: 'https://storage.yandexcloud.net/diplodoc-www-assets/pages/index-diplodoc/ddos-index-item-01-01.png'
-          disableCompress: true
-        fullScreen: true
-        border: true
-        disableCompress: true
-      - type: 'layout-item'
-        content:
-          title: 'Интеграция с GitHub'
-          text: 'Платформа Diplodoc имеет сквозную интеграцию с GitHub для обеспечения простого и стабильного механизма сборки и развёртывания документационных проектов. GitHub используется как хранилище исходного кода для документов и исполнения пайплайна проекта.'
-        media:
-          image: 'https://storage.yandexcloud.net/diplodoc-www-assets/pages/index-diplodoc/ddos-index-item-01-02.png'
-          disableCompress: true
-        fullScreen: true
-        border: true
-        disableCompress: true
-      - type: 'layout-item'
-        content:
-          title: 'Развёртывание'
-          text: 'Компании – пользователи сервиса Diplodoc используют встроенные механизмы выкладки документационного проекта с последующей их индексацией и отслеживанием версий. Документы могут обновляться как в автоматическом, так и в полуавтоматическом режиме с привлечением администратора со стороны пользователя.'
-        media:
-          image: 'https://storage.yandexcloud.net/diplodoc-www-assets/pages/index-diplodoc/ddos-index-item-01-03.png'
-          disableCompress: true
-        fullScreen: true
-        border: true
-        disableCompress: true
-
-  
- 
