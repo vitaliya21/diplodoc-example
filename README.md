@@ -40,3 +40,5 @@ enjoy developing documentation with html result preview in split view
 ![codespaces project](images/codespaces-project.jpeg)
 
 !!!
+
+Проверка зеркала!
