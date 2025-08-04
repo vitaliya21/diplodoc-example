@@ -44,7 +44,8 @@ jobs:
       - name: Install Diplodoc CLI and build docs
         run: |
           npm install -g @diplodoc/cli # Или npm install @diplodoc/cli и npx diplodoc build
-          diplodoc build ./docs -o ./docs-html
+          
+          npx diplodoc build ./docs -o ./docs-html
         
 
       - name: Build docs
