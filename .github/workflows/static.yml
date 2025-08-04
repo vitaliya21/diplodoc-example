@@ -43,7 +43,7 @@ jobs:
 
       - name: Install Diplodoc CLI and build docs
         run: |
-          npm install -g @diplodoc/cli 
+          npm install @diplodoc/cli 
           
           npx @diplodoc/cli build ./docs -o ./docs-html
         
