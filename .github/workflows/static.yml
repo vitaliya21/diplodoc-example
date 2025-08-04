@@ -32,10 +32,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
-      - name: Setup Node.js
+      - name: Setup Node.js 20
         uses: actions/setup-node@v4
         with:
-          node-version: '20.18.1'
+          node-version: '20'
           
         
       - name: Setup Pages
@@ -48,11 +48,7 @@ jobs:
           npx @diplodoc/cli build ./docs -o ./docs-html
         
 
-      - name: Build docs
-        uses: diplodoc-platform/docs-build-static-action@v1
-        with:
-          src-root: './docs'
-          build-root: './docs-html'
+ 
 
       - name: Upload artifact 
         uses: actions/upload-pages-artifact@v3
