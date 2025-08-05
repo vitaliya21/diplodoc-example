@@ -1,13 +1,67 @@
-title: Шаблон проекта документации
+title: Cloud.fkk
+
 href: index.yaml
 items: 
-  - name: О проекте
-    href: about.md
-  - name: Дополнительная страница
-    href: page.md
-  - name: Другая страница
-    href: anotherpage.md
-  - name: Подраздел
-    include:
-      path: sub-section/toc.yaml
-      mode: link
+  - name: Начало работы
+    items:
+      - name: Регистрация
+        href: Registration.md
+      - name: Привязка банковской карты
+        href: privyazka-bankovscoy-katry.md
+
+  - name: Управление доступом
+    items:
+      - name: Управление пользователями
+        items:
+          - name: Просмотр пользователей кабинета
+            href: prosmotr-users.md
+          - name: Добавление пользователя
+            href: add-users.md
+          - name: Редактирование роли пользователя
+            href: update-role.md
+          - name: Удаление пользователя
+            href: delete-user.md
+
+  - name: Управление проектами
+    items:
+      - name: Просмотр списка доступных проектов
+        href: projects.md
+      - name: Создание нового проекта
+        href: create-project.md
+
+  - name: Управление биллингом
+    items:
+      - name: Операции с банковской картой
+        items:
+          - name: Привязать карту
+            href: add-card.md
+          - name: Отвязать карту
+            href: delete-card.md
+      
+      - name: Управление балансом
+        items:
+          - name: Просмотр баланса
+            href: balance.md
+          - name: Пополнение баланса
+            href: add-balance.md
+          - name: Перевод средств на баланс проекта
+            href: perevod.md
+          - name: Формирование счета на оплату
+            href: form-schet.md
+
+      - name: Детализация расходов
+        items:
+          - name: Просмотр списаний и поступлений
+            href: balance-history.md
+          
+      - name: Тарификация
+        href: tarifikacia.md
+    
+  - name: Управление сервисами IaaS
+    items:
+      - name: Виртуальные машины
+        href: vm.md
+      - name: Виртуальные диски
+        href: vv.md
+      - name: Виртуальные сети
+        href: vn.md

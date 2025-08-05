@@ -1,10 +1,20 @@
-title: Шаблон документации
-links:
-  - title: О проекте
-    href: about.md
-  - title: Страница Diplodoc на главной странице
-    href: page.md
-  - title: Структура YFM на главной странице
-    href: anotherpage.md
-  - title: Подраздел на главной странице
-    href: sub-section/
+blocks:
+  - type: 'header-block'
+    width: 's'
+    offset: 'default'
+    title: 'Документация FKK Cloud'
+    resetPaddings: true
+    verticalOffset: 'l'
+    description: 'Облачный сервис, который позволит пользователям и организациям создавать собственные облачные среды с использованием принципов IaaS, PaaS и SaaS'
+    background:
+      light:
+        image:
+          desktop: 'https://i.postimg.cc/h4fyh3H0/image.png'
+          disableCompress: true
+          fullWidth: false
+      
+    buttons:
+      - text: 'Начать'
+        theme: 'outlined'
+        size: 'promo'
+        url: 'https://vitaliya21.github.io/diplodoc-example/ru/Registration.html'
