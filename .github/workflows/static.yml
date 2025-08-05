@@ -44,6 +44,7 @@ jobs:
         with:
           src-root: './docs'
           build-root: './docs-html'
+          node-version: '20'
               
       - name: Setup Pages
         uses: actions/configure-pages@v5
