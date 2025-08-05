@@ -38,11 +38,10 @@ jobs:
         with:
           node-version: '20'
           
-      - name: Install Diplodoc CLI
-        run: npm install -g @diplodoc/cli
+      
 
       - name: Build docs with Diplodoc CLI
-        run: diplodoc build --input ./docs --output ./docs-html
+        run: npx @diplodoc/cli build --input ./docs --output ./docs-html
               
       - name: Setup Pages
         uses: actions/configure-pages@v5
