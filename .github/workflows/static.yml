@@ -33,15 +33,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
-    
-          
-
-      - name: Build docs with Diplodoc Action
-        uses: diplodoc-platform/docs-build-static-action@v1
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
         with:
-          src-root: './docs'
-          build-root: './docs-html'
           node-version: '20'
+          
+      - name: Install Diplodoc CLI
+        run: npm install -g @diplodoc/cli
+
+      - name: Build docs with Diplodoc CLI
+        run: diplodoc build --input ./docs --output ./docs-html
               
       - name: Setup Pages
         uses: actions/configure-pages@v5
