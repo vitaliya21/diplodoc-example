@@ -33,13 +33,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
-      - name: Setup Node.js 20
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+    
           
 
-      - name: Build docs
+      - name: Build docs with Diplodoc Action
         uses: diplodoc-platform/docs-build-static-action@v1
         with:
           src-root: './docs'
