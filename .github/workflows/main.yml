@@ -27,9 +27,11 @@ jobs:
 
     - name: Push to GitFlic
       run: |
-        
+        echo "Token variable length: ${{ secrets.GITFLIC_TOKEN }}" | wc -c
+        git config --global credential.https://gitflic.ru.username ${{ secrets.GITFLIC_TOKEN }}
         git remote add gitflic https://${{ secrets.GITFLIC_TOKEN }}@gitflic.ru/vitazhuravleva/dokumentaciya.git
         git push --mirror gitflic
       env:
         GIT_SSH_COMMAND: "ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" # Для SSH, но здесь используется HTTPS
+        
 
