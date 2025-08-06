@@ -2,7 +2,7 @@ blocks:
   - type: 'header-block'
     width: 's'
     offset: 'default'
-    title: 'Документация FKK Cloud'
+    title: 'Документация FKK Cloud ТЕСТ'
     resetPaddings: true
     verticalOffset: 'l'
     description: 'Облачный сервис, который позволит пользователям и организациям создавать собственные облачные среды с использованием принципов IaaS, PaaS и SaaS'
