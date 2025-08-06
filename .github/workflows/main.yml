@@ -1,0 +1,34 @@
+name: Sync to GitFlic
+
+on:
+  push:
+    branches:
+      - main # Или master, или другие ветки, которые вы хотите синхронизировать
+      # Если вы хотите синхронизировать все ветки, просто оставьте 'push:'
+      # без 'branches:' или добавьте все нужные ветки.
+      # Если хотите синхронизировать теги, добавьте:
+      # tags:
+      #   - '*'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 # Важно для получения всей истории, включая все ветки и теги
+
+    - name: Set up Git
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+
+    - name: Push to GitFlic
+      run: |
+        # Замените YOUR_USERNAME и YOUR_REPO_NAME на ваши данные на GitFlic
+        # Используйте GITFLIC_TOKEN из секретов
+        git remote add gitflic https://${{ secrets.GITFLIC_TOKEN }}@gitflic.ru/vitazhuravleva/Документация.git
+        git push --mirror gitflic
+      env:
