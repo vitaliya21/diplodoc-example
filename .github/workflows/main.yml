@@ -28,7 +28,7 @@ jobs:
     - name: Push to GitFlic
       run: |
         
-        git remote add gitflic https://${{ secrets.GITFLIC_TOKEN }}@gitflic.ru/vitazhuravleva/Документация.git
+        git remote add gitflic https://${{ secrets.GITFLIC_TOKEN }}@gitflic.ru/vitazhuravleva/dokumentaciya.git
         git push --mirror gitflic
       env:
         GIT_SSH_COMMAND: "ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" # Для SSH, но здесь используется HTTPS
