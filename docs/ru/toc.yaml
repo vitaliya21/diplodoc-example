@@ -6,14 +6,15 @@ items:
     items:
       - name: Регистрация
         href: Registration.md
-      - name: Привязка банковской карты
+      - name: Привязка банковской карты ❌
         href: privyazka-bankovscoy-katry.md
 
   - name: Управление доступом
     items:
       - name: Управление пользователями
+        href: users-mode.md
         items:
-          - name: Просмотр пользователей кабинета
+          - name: Просмотр пользователей проекта
             href: prosmotr-users.md
           - name: Добавление пользователя
             href: add-users.md
@@ -65,3 +66,8 @@ items:
         href: vv.md
       - name: Виртуальные сети
         href: vn.md
+
+  - name: Дополнительно
+    items:
+      - name: Роли
+        href: roles.md
