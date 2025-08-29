@@ -1,4 +1,4 @@
-# Documentation Template created by Diplodoc
+ИИаыуауыаыуИ# Documentation Template created by Diplodoc
 
 Features:
 
@@ -38,3 +38,5 @@ wait for the development server startup
 enjoy developing documentation with html result preview in split view
 
 ![codespaces project](images/codespaces-project.jpeg)
+
+Проверка
