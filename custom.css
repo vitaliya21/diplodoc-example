@@ -1,0 +1,4 @@
+body {
+    background-color: red !important; /* Используйте !important для принудительного применения */
+    color: white !important;
+}

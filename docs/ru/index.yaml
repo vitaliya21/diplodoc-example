@@ -2,7 +2,7 @@ blocks:
   - type: 'header-block'
     width: 's'
     offset: 'default'
-    title: 'Документация FKK Cloud ТЕСТ'
+    title: 'Документация FKK Cloud'
     resetPaddings: true
     verticalOffset: 'l'
     description: 'Облачный сервис, который позволит пользователям и организациям создавать собственные облачные среды с использованием принципов IaaS, PaaS и SaaS'
@@ -18,3 +18,68 @@ blocks:
         theme: 'outlined'
         size: 'promo'
         url: 'https://vitaliya21.github.io/diplodoc-example/ru/Registration.html'
+  
+  - type: 'extended-features-block'
+    title:
+      text: 'Преимущества платформы'
+    items:
+      - title: '???'
+        
+        text: '???.'
+      - title: '???'
+        
+        text: '???'
+      - title: '???'
+        
+        text: '???'
+      - title: '???'
+        
+        text: '???'
+      - title: '???'
+        
+        text: '???'
+      - title: '???'
+        
+        text: '???.'
+
+  - type: 'header-slider-block'
+    arrows: true
+    items:
+      - title: 'Продукты'
+        description: 'Виртуальные сети'
+        width: 's'
+        background:
+          light:
+            
+            color: '#EFF2F8'
+            fullWidth: true
+          dark:
+            
+            color: '#262626'
+            fullWidth: true
+        buttons:
+          - text: "Button\r"
+            theme: 'action'
+            url: 'https://example.com'
+          - text: 'Buttom'
+            theme: 'outlined'
+            url: 'https://example.com'
+      - title: 'Lorem ipsum dolor sit amet'
+        description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident'
+        width: 's'
+        background:
+          light:
+            
+            color: '#EFF2F8'
+            fullWidth: true
+          dark:
+            
+            color: '#262626'
+            fullWidth: true
+        buttons:
+          - text: "Button\r"
+            theme: 'action'
+            url: 'https://example.com'
+          - text: 'Buttom'
+            theme: 'outlined'
+            url: 'https://example.com'
