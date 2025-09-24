@@ -84,7 +84,7 @@ items:
           href: management-of-rk.md 
         - name: Восстановление из резервной копии
           href: backup.md
-        - name: Point-in-time recovery (PITR
+        - name: Point-in-time recovery (PITR) ❌
           href: point-in-time.md 
 
   - name: Дополнительно
