@@ -66,8 +66,27 @@ items:
         href: vv.md
       - name: Виртуальные сети
         href: vn.md
-      - name: Резервное копирование
-        href: rk.md
+
+  - name: Cloud Backup
+    items:
+      - name: О сервисе
+        href: about-service.md
+      - name: Пошаговые инструкции
+        href: instruction-by-steps.md
+        items:
+        - name: Создание плана резервного копирования   
+          href: plan-of-rk.md
+        - name: Управление планом резервного копирования
+          href: management-of-plan-rk.md 
+        - name: Создание резервной копии вручную   
+          href: creation-of-rk.md
+        - name: Управление резервными копиями
+          href: management-of-rk.md 
+        - name: Восстановление из резервной копии
+          href: backup.md
+        - name: Point-in-time recovery (PITR
+          href: point-in-time.md 
+
   - name: Дополнительно
     items:
       - name: Роли
