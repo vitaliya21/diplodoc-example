@@ -74,13 +74,13 @@ items:
       - name: Пошаговые инструкции
         href: instruction-by-steps.md
         items:
-        - name: Создание плана резервного копирования   
+        - name: Создание плана резервного копирования  ❌
           href: plan-of-rk.md
-        - name: Управление планом резервного копирования
+        - name: Управление планом резервного копирования ❌
           href: management-of-plan-rk.md 
         - name: Создание резервной копии вручную   
           href: creation-of-rk.md
-        - name: Управление резервными копиями
+        - name: Управление резервными копиями 
           href: management-of-rk.md 
         - name: Восстановление из резервной копии
           href: backup.md
