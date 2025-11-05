@@ -32,12 +32,15 @@ items:
 
   - name: Управление биллингом
     items:
-      - name: Операции с банковской картой
+      - name: Способы оплаты
+        href: sposob-oplaty.md
         items:
-          - name: Привязать карту
-            href: add-card.md
-          - name: Отвязать карту
-            href: delete-card.md
+          - name: Оплата картой без сохранения
+            href: by-card-bez.md
+          - name: Оплата картой
+            href: by-card-with.md
+          - name: Банковский перевод
+            href: bank-perevod.md  
       
       - name: Управление балансом
         items:
