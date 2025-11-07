@@ -6,7 +6,7 @@ items:
     items:
       - name: Регистрация
         href: Registration.md
-      - name: Привязка банковской карты ❌
+      - name: Привязка банковской карты
         href: privyazka-bankovscoy-katry.md
 
   - name: Управление доступом
@@ -97,8 +97,4 @@ items:
   
   - name: Правовая информация
     href: pravinf.md
-    items:
-      - name: Политика конфиденциальности
-        href: politics.md
-      - name: Публичная оферта
-        href: public-oferta.md
+    
