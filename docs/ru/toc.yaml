@@ -62,13 +62,15 @@ items:
         href: tarifikacia.md
     
   - name: Управление сервисами IaaS
+    href: upravlenie.md
     items:
+      - name: Создание и управление сетями
+        href: vn.md
       - name: Виртуальные машины
         href: vm.md
       - name: Виртуальные диски
         href: vv.md
-      - name: Виртуальные сети
-        href: vn.md
+      
 
   - name: Cloud Backup
     items:
