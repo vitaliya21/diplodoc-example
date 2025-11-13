@@ -50,12 +50,10 @@ items:
             href: add-balance.md
           - name: Перевод средств на баланс проекта
             href: perevod.md
-          - name: Формирование счета на оплату
-            href: form-schet.md
-
+        
       - name: Детализация расходов
         items:
-          - name: Просмотр списаний и поступлений
+          - name: Просмотр поступлений
             href: balance-history.md
           
       - name: Тарификация
@@ -66,9 +64,9 @@ items:
     items:
       - name: Создание и управление сетями
         href: vn.md
-      - name: Виртуальные машины
+      - name: Создание и управление экземплярами
         href: vm.md
-      - name: Виртуальные диски
+      - name: Создание и управление дисками
         href: vv.md
       
 
