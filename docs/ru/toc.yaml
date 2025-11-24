@@ -94,6 +94,8 @@ items:
     items:
       - name: Роли
         href: roles.md
+      - name: cloud-init
+        href: cloud-init.md
   
   - name: Правовая информация
     href: pravinf.md
