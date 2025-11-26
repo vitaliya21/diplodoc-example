@@ -49,63 +49,6 @@
     
 <div class = "text">
 
-[Создание плана резервного копирования](plan-of-rk.md)
-
-</div>
-<div class="text-low">
-Как создать план резервного копирования для ВМ, БД или аналитической БД
-</div>
-
-  </div>
-
-  <div class="column-item">
-    
-<div class = "text">
-
-[Управление планом резервного копирования](management-of-plan-rk.md)
-
-</div>
-<div class="text-low">
-Инструкции по работе с планом резервного копирования ВМ, БД или аналитической БД
-</div>
-
-  </div>
-</div>
-
-<div class="two-columns-container">
-  <div class="column-item">
-    
-<div class = "text">
-
-[Создание резервной копии вручную](creation-of-rk.md)
-
-</div>
-<div class="text-low">
-Как вручную создать резервную копию ВМ, БД или аналитической БД
-</div>
-
-  </div>
-
-  <div class="column-item">
-    
-<div class = "text">
-
-[Управление резервными копиями](management-of-rk.md)
-
-</div>
-<div class="text-low">
-Инструкции по работе с резервными копиями ВМ, БД  или аналитической БД
-</div>
-
-  </div>
-</div>
-
-
-<div class="two-columns-container">
-  <div class="column-item">
-    
-<div class = "text">
-
 [Восстановление из резервной копии](backup.md)
 
 </div>
@@ -119,11 +62,11 @@
     
 <div class = "text">
 
-[Point-in-time recovery (PITR)](point-in-time.md)
+[Создание резервной копии вручную](creation-of-rk.md)
 
 </div>
 <div class="text-low">
-Работа с расписанием резервного копирования (PITR) в PostgreSQL
+Как вручную создать резервную копию ВМ, БД или аналитической БД
 </div>
 
   </div>

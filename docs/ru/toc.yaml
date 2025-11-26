@@ -58,6 +58,9 @@ items:
           
       - name: Тарификация
         href: tarifikacia.md
+
+      - name: Расчет стоимости Услуг
+        href: raschet.md
     
   - name: Управление сервисами IaaS
     href: upravlenie.md
@@ -66,6 +69,8 @@ items:
         href: vn.md
       - name: Создание и управление экземплярами
         href: vm.md
+      - name: Создание и управление дисками
+        href: vv.md
       
 
   - name: Cloud Backup
@@ -77,10 +82,9 @@ items:
         items:
         - name: Создание резервной копии вручную   
           href: creation-of-rk.md
-        - name: Управление резервными копиями 
-          href: management-of-rk.md 
         - name: Восстановление из резервной копии
           href: backup.md
+        
 
   - name: Дополнительно
     items:
