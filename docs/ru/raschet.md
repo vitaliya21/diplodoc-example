@@ -1,6 +1,8 @@
 
 ![alt text](XLR1SXj54BtlLqmLb_W2aX91eYGcm24N3bJn1OgymKiMhMgrAWv9gYGhXSib2fk3YnlWehYlXTTUIxRy2ps_m9VmtepHeF4kiKlIgcVwzUlNFJrwDiowQJRwBWxUo8cKUgBtf90hoTy4PYNeD3zKyZjiVzbLFPPS_u3dmyT1fuMrtsGbDtWjvLeAl4efb9p2SAsdUeBFEJRUvqQubZBNXt.png)
 
+*Схема 1 - Автоматизация управления статусом проекта по балансу*
+
 ## Маршрутизация средств
 
 **Приоритет использования средств для использования баланса проекта:**
