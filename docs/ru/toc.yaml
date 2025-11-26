@@ -66,8 +66,6 @@ items:
         href: vn.md
       - name: Создание и управление экземплярами
         href: vm.md
-      - name: Создание и управление дисками
-        href: vv.md
       
 
   - name: Cloud Backup
@@ -77,18 +75,12 @@ items:
       - name: Пошаговые инструкции
         href: instruction-by-steps.md
         items:
-        - name: Создание плана резервного копирования  ❌
-          href: plan-of-rk.md
-        - name: Управление планом резервного копирования ❌
-          href: management-of-plan-rk.md 
         - name: Создание резервной копии вручную   
           href: creation-of-rk.md
         - name: Управление резервными копиями 
           href: management-of-rk.md 
         - name: Восстановление из резервной копии
           href: backup.md
-        - name: Point-in-time recovery (PITR) ❌
-          href: point-in-time.md 
 
   - name: Дополнительно
     items:
