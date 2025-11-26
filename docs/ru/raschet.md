@@ -1,7 +1,7 @@
 
 ## Маршрутизация средств
 
-![alt text](ZLPTRnj557tVNp4IBuqK1UV3JUgqeS13XSH3fOfdv2PJih1ue_L6FBIHx4r5L0NHW5JnWe0AyRvniurZEyvVkFCN-2NSCpVDrECT856IpSpSSyyzvyvTt-_cxIpV_pQ9dj5h6fg-AQYY2PNF8hiJjPQN5Ft1Qszar_IeDD_pyylDgBN2Ux_JbAxuPqoNLF7Fa2f5fxnmQGvDd_yEDgDEcc.png)
+![alt text](XLR1SXj54BtlLqmLb_W2aX91eYGcm24N3bJn1OgymKiMhMgrAWv9gYGhXSib2fk3YnlWehYlXTTUIxRy2ps_m9VmtepHeF4kiKlIgcVwzUlNFJrwDiowQJRwBWxUo8cKUgBtf90hoTy4PYNeD3zKyZjiVzbLFPPS_u3dmyT1fuMrtsGbDtWjvLeAl4efb9p2SAsdUeBFEJRUvqQubZBNXt.png)
 
 **Приоритет использования средств для использования баланса проекта:**
 
