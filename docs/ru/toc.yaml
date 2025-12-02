@@ -69,8 +69,6 @@ items:
         href: vn.md
       - name: Создание и управление экземплярами
         href: vm.md
-      - name: Создание и управление дисками
-        href: vv.md
       
 
   - name: Cloud Backup
