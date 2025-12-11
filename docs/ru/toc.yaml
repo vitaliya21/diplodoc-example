@@ -8,6 +8,13 @@ items:
         href: Registration.md
       - name: Привязка банковской карты
         href: privyazka-bankovscoy-katry.md
+      - name: Профиль пользователя
+        href: profil_polzovatelya.md
+        items:
+          - name: Основная информация
+            href: osnov_inf.md
+          - name: Документы
+            href: docs.md
 
   - name: Управление доступом
     items:
