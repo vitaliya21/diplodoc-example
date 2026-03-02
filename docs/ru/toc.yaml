@@ -68,6 +68,9 @@ items:
 
       - name: Расчет стоимости Услуг
         href: raschet.md
+
+      - name: Квоты и лимиты
+        href: kvoti.md
     
   - name: Управление сервисами IaaS
     href: upravlenie.md
