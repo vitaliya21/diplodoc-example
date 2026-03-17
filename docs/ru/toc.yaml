@@ -92,8 +92,15 @@ items:
           href: creation-of-rk.md
         - name: Восстановление из резервной копии
           href: backup.md
-        
-
+        - name: Автоматическое резервное копирование
+          items:
+          - name: План резервного копирования   
+            href: plan_rk.md
+          - name: Резервные копии плана
+            href: reservnie_kopii.md  
+          - name: Матрица доступа
+            href: matrica_dostupa.md 
+          
   - name: Дополнительно
     items:
       - name: Роли
